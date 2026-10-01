@@ -1,0 +1,33 @@
+# Environments and Python build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Generated study outputs
+data/processed/
+artifacts/*
+!artifacts/README.md
+reports/results/
+reports/figures/
+reports/executed_notebooks/
+reports/RESULTS.md
+
+# Caches, editor state and local configuration
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.jupyter/
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+.env
+.env.*
+*.log
+.coverage
+htmlcov/

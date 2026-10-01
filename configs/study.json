@@ -1,0 +1,70 @@
+{
+  "protocol": "1.0",
+  "dataset_url": "https://archive.ics.uci.edu/static/public/492/metro+interstate+traffic+volume.zip",
+  "source_page": "https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume",
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "baseline_min_group": 10,
+  "baseline_scale_floor": 1,
+  "n_estimators": 200,
+  "max_samples": "auto",
+  "model_seed": 42,
+  "alert_rates": [
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "primary_alert_rate": 0.01,
+  "injection_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "model_seeds": [
+    7,
+    19,
+    31,
+    43,
+    59
+  ],
+  "primary_injection_rate": 0.01,
+  "stress_injection_rate": 0.05,
+  "families": [
+    "spike",
+    "drop",
+    "shift",
+    "flatline"
+  ],
+  "severities": [
+    "mild",
+    "moderate",
+    "severe"
+  ],
+  "spike_factors": [
+    1.25,
+    1.75,
+    2.5
+  ],
+  "drop_factors": [
+    0.75,
+    0.5,
+    0.1
+  ],
+  "shift_magnitudes": [
+    0.25,
+    0.5,
+    0.9
+  ],
+  "event_lengths": [
+    3,
+    6,
+    12
+  ],
+  "timestamp_policy": "Use source local CST labels as supplied, without guessing DST/UTC conversion.",
+  "duplicate_policy": "Collapse identical timestamp-volume pairs; exclude all timestamps with conflicting counts.",
+  "missing_hour_policy": "Keep gaps; do not impute traffic volume; require contiguous hours for injected events."
+}
+

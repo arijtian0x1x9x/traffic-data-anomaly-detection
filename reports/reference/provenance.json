@@ -1,0 +1,23 @@
+{
+  "description": "Reference numerical results from the public project configuration.",
+  "python": "3.14.7",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "data_sha256": "0b3679ac15173f79c6dc6c5ef8a0798d806fa5c5d7f05c84a5fa711bd1b05f07",
+  "config_sha256": "8b0857454fb431e603d0b4190ec058999ffe5ea622b480a5b9c0da39bca14d93",
+  "n_test_scenarios": 85,
+  "n_metric_rows": 680,
+  "n_seed_sensitivity_runs": 20,
+  "numerical_summary_matches_previous_study": true,
+  "reference_sha256": {
+    "model_seed_sensitivity.csv": "7f382f456539459920be9072503bd7836f872ccb6d4a765a7207a6ad45004f14",
+    "original_alert_rates.csv": "9651df1d5b5a441ecc61b53176d55becbcea87af8427a4c33bef42f60bd77d72",
+    "paired_recall_differences.csv": "337597adf98689ac2305a754277633bc07e95eb8b27be476f51afeda79b49b9c",
+    "summary.csv": "b9d8438113f0adeba3c7129621032064b92a0dffe8887f2958926e3edded70bd"
+  }
+}

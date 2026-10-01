@@ -1,0 +1,23 @@
+{
+  "automated_tests_passed": 25,
+  "source_notebooks": 4,
+  "executed_notebooks": 4,
+  "reconstructed_scenarios": 85,
+  "paired_metric_rows": 680,
+  "rescored_saved_examples": 4,
+  "numerical_summary_matches_original_study": true,
+  "uv_lock_sha256": "b23e2e579d2f649b21a8a08e12efc408add21a73aa74e7e46752272d1d265165",
+  "source_sha256": {
+    "src/traffic_anomaly/__init__.py": "3332eaeca40aa04fc7a2bc597535de02725de6ef37d70663d8a177ba74e99fdb",
+    "src/traffic_anomaly/cli.py": "8cc8d101b66bbe6cd88944c396f58b7bf3819329b682804cb8a2ac03d44c8563",
+    "src/traffic_anomaly/data.py": "400076b95f8c1b8eff298351982463d292772236de4e2ec5196b48d1ed305dc7",
+    "src/traffic_anomaly/evaluation.py": "ed687b85b2eae236db0099691bfcefa9723ac6aa7a9022085450705f072d7f8d",
+    "src/traffic_anomaly/experiments.py": "bd99fd0fe52c02a87809217125bc28705ca83876124321f2252339aa8e039629",
+    "src/traffic_anomaly/features.py": "5a245914c206f221e2ab5ed605c8cef97c746b8210731da53973360f0844170c",
+    "src/traffic_anomaly/injection.py": "6fb9fdabe085c809035fbccf3f81168c2e94db771df36b3348c9546b0bdd3d61",
+    "src/traffic_anomaly/models.py": "181964b7d7ff889d162cac66a2452450c1acbf91689bb05aa1771cf3b0649432",
+    "src/traffic_anomaly/paths.py": "19a1e3c24916655806d887c154ea172a1a31b77cdf46e8b7f86a44930a90dc5e",
+    "src/traffic_anomaly/reporting.py": "bbdf4b99d07f6163521f399ee5404b4c7c05bf243339693827b15d7c97cf0c1c"
+  },
+  "scope": "Local fresh-environment verification. Remote GitHub Actions has not run yet."
+}
